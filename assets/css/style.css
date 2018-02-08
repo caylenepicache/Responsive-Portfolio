@@ -1,0 +1,403 @@
+body {
+    background-image: url("../images/seigaiha.png");
+    background-repeat: repeat;
+    background-color: #ebebeb;
+
+}#name {
+    color: #ffffff;
+    padding: 20px;
+    background-color: #4aaaa5;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 81%;
+    padding-left: 19%;
+    border-color: #ccc;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+
+}
+
+
+.linksection {
+    float: left;
+    border-color: #fff;
+    padding:30px;
+    margin-left: 25%;
+
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.spacer{
+    padding: 2%;
+}
+
+.content {
+    width: 960px;
+    margin-left: auto;
+    margin-top: 3%;
+    margin-right: auto;
+}
+
+.about-me{
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    float:left;
+    padding: 20px;
+    margin-right: 32px;
+    width: 610px;
+    background-color: #fff;
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+
+.contact-me {
+    border-width: 2px;
+    float:left;
+    border-color: #ddd;
+    border-style: solid;
+    width: 230px;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+#content-title {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+#contact-title {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    border-top-color: #4aaaa5;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    background-color: #666;
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+#borderstyle1 {
+	border-top: 2px solid #ddd;
+}
+
+img {
+    width: 65%;
+    float: left;
+    padding: 10px;
+}
+
+#imageright{
+    width: 60%;
+    float: right;
+    padding: 10px;
+}
+
+.icon{
+    padding: 0px;
+    float: left;
+    width: 33%;
+}
+
+.linkimage {
+    padding:0px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+
+}
+
+/*contact form css*/ 
+.contact-form{
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    float:left;
+    padding: 20px;
+    margin-right: 32px;
+    width: 610px;
+    background-color: #fff;
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.messagebox {
+    width: 100%;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* portfolio */
+
+.portfoliomain {
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    float:left;
+    padding: 20px;
+    margin-right: 32px;
+    width: 610px;
+    background-color: #fff;
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.polaroid {
+    width: 46%;
+    background-color: white;
+    margin-bottom: 25px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.portphoto {
+    text-align: center;
+    padding: 1px 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.polaroid-caption {
+    width: 100%;
+    padding: 0px;
+}
+
+.portfolio-link {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 980px) {
+    .header {
+        width: 100%;
+        padding-left: 16%;
+        font-size: 14px;
+    }
+    .about-me , .portfoliomain, .contact-form {
+        width: 35%;
+        margin-left: 15%;
+        font-size: 14px;
+        margin-top: 4%;
+    }
+
+    .contact-me {
+        width: 20%;
+        margin-top: 4%;
+    }
+    #name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .linksection {
+        padding: 25px;
+        margin-left: 11%;
+    }
+    .footer {
+        padding: 15px;
+        font-size: 12px;
+    }
+    img {
+        width: 100%;
+    }
+    #imageright {
+        width: 50%;
+    }
+
+    .portphoto {
+        width: 200%;
+    }
+    .polaroid-caption {
+        width: 200%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+        padding-left: 6.5%;
+        font-size: 14px;
+    }
+    .about-me, .portfoliomain, .contact-form {
+        width: 80%;
+        margin-left: 5%;
+        font-size: 14px;
+        margin-top: 4%;
+    }
+
+    .contact-me {
+        width: 80%;
+        margin-top: 4%;
+        float: left;
+        position: static;
+        margin-left: 5%;
+    }
+    #name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .linksection {
+        padding: 25px;
+        margin-left: 11%;
+    }
+    .footer {
+        padding: 15px;
+        font-size: 12px;
+    }
+    img {
+        width: 60%;
+    }
+    #imageright {
+        width: 50%;
+    }
+
+    .content {
+        width: 768px;
+    }
+    .icon {
+        width: 15%;
+    }
+
+    .portphoto {
+        width: 100%;
+    }
+    .polaroid-caption {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        margin: 0px;
+    }
+    .header {
+        width: 100%;
+        font-size: 14px;
+        padding-left: 0px;
+        position: static;
+        background-color: white;
+        top: 0;
+        left: 0px;
+    }
+    .about-me, .portfoliomain, .contact-form {
+        width: 68%;
+        margin-left: 2%;
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    .linksection {
+        background-color: white;
+        width: 82%;
+        margin-left: 0;
+        padding-left: 15%;
+        border-bottom: #ccc 2px solid;
+    }
+    .contact-me {
+        width: 68%;
+        margin-top: 2%;
+        float: left;
+        position: static;
+        margin-left: 2%;
+    }
+    #name {
+        font-size: 24px;
+        font-weight: bold;
+        width: 94.5%;
+        margin-left: 0px;
+        top: -5px;
+    }
+
+    .footer {
+        padding: 15px;
+        font-size: 12px;
+
+    }
+    img {
+        width: 60%;
+    }
+    #imageright {
+        width: 50%;
+    }
+
+    .content {
+        width: 768px;
+    }
+    .icon {
+        width: 15%;
+    }
+
+    a {
+        padding: 35px;
+        margin-right: 20px;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .polaroid {
+        float: none;
+    }
+    .portphoto {
+        width: 205%;
+    }
+    .polaroid-caption {
+        width: 205%;
+    }
+
+
+}
